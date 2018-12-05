@@ -1,0 +1,117 @@
+
+*{
+    box-sizing: border-box;
+    margin:0;
+    
+}
+
+.container{
+    display:flex;
+    background-color: aqua;
+    height: 100vh;
+    width:100vw;
+    flex-direction: row;
+    margin:0;
+}
+.first , .second , .third {
+    display:flex;
+    background-color: aqua;
+    height: 100%;
+    width:20%;
+    flex-direction: column;
+     /* margin:4px;  */
+     padding:4px;
+
+     
+}
+.fourth{
+    display:flex;
+    background-color: aqua;
+    height: 79vh;
+    width:20%;
+    flex-direction: column;
+     /* margin:4px;  */
+     padding:4px;
+
+}
+.five{
+    display:flex;
+    width:20%;
+    flex-direction: column;
+   align-self: flex-end;
+  
+      padding:4px;
+}
+
+
+.first>div:nth-child(1){
+    flex:5;
+    background-color: yellow;
+        /* margin:4px; */
+        margin-bottom: 8px;
+}
+.first>div:nth-child(2){
+    flex:5;
+    /* margin:4px; */
+
+    background-color:yellow;
+}
+.second>div:nth-child(1){
+    flex:4;
+    /* margin:4px; */
+    margin-bottom: 8px;
+
+    background-color:yellow;
+}
+.second>div:nth-child(2){
+    flex:4;
+    /* margin:4px; */
+    margin-bottom: 8px;
+
+    background-color:yellow;
+}
+.second>div:nth-child(3){
+    flex:2;
+    /* margin:4px; */
+
+    background-color:yellow;
+}
+
+.third>div:nth-child(1){
+    flex:8;
+    /* margin:4px; */
+margin-bottom: 8px;
+    background-color: yellow;
+}
+.third>div:nth-child(2){
+    flex:2;
+    /* margin:4px; */
+    
+
+    background-color:yellow;
+    width:39vw;
+}
+.fourth>div:nth-child(1){
+    flex:5;
+    /* margin:4px; */
+    margin-bottom: 8px;
+
+    background-color: yellow;
+    width:39vw;
+}
+.fourth>div:nth-child(2){
+    flex:5;
+    /* margin:4px; */
+    /* margin-bottom: 8px; */
+
+    background-color:yellow;
+  
+}
+.five>div:nth-child(1){
+    
+    /* margin:4px; */
+    height:59vh;
+
+    background-color:yellow;
+  
+}
