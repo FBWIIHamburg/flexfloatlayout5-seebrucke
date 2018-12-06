@@ -2,9 +2,7 @@
 *{
     box-sizing: border-box;
     margin:0;
-    
 }
-
 .container{
     display:flex;
     background-color: aqua;
@@ -17,101 +15,74 @@
     display:flex;
     background-color: aqua;
     height: 100%;
-    width:20%;
+    flex:1;
     flex-direction: column;
-     /* margin:4px;  */
-     padding:4px;
-
-     
+    padding:0.4%;
 }
 .fourth{
     display:flex;
     background-color: aqua;
-    height: 79vh;
-    width:20%;
-    flex-direction: column;
-     /* margin:4px;  */
-     padding:4px;
+    height:74.9%;
+    flex:1;
 
+    flex-direction: column;
+    padding:0.4%;
 }
-.five{
+.fifth{
     display:flex;
-    width:20%;
+    flex:1;
+height:62.5%;
     flex-direction: column;
-   align-self: flex-end;
-  
-      padding:4px;
+    align-self: flex-end;
+    padding:0.4%;
 }
-
 
 .first>div:nth-child(1){
-    flex:5;
+    height:39.4%;
     background-color: yellow;
-        /* margin:4px; */
-        margin-bottom: 8px;
+    margin-bottom: 4%;
 }
 .first>div:nth-child(2){
-    flex:5;
-    /* margin:4px; */
-
+    height:60%;
     background-color:yellow;
 }
 .second>div:nth-child(1){
-    flex:4;
-    /* margin:4px; */
-    margin-bottom: 8px;
-
+    height:40%;
+    margin-bottom: 4%;
     background-color:yellow;
 }
 .second>div:nth-child(2){
-    flex:4;
-    /* margin:4px; */
-    margin-bottom: 8px;
-
+    height:35%;
+    margin-bottom: 4%;
     background-color:yellow;
 }
 .second>div:nth-child(3){
-    flex:2;
-    /* margin:4px; */
-
+    height:25%;
     background-color:yellow;
 }
 
 .third>div:nth-child(1){
-    flex:8;
-    /* margin:4px; */
-margin-bottom: 8px;
+    height:74.6%;
+    margin-bottom: 4%;
     background-color: yellow;
 }
 .third>div:nth-child(2){
     flex:2;
-    /* margin:4px; */
-    
-
+    width:204%;
     background-color:yellow;
-    width:39vw;
 }
 .fourth>div:nth-child(1){
     flex:5;
-    /* margin:4px; */
-    margin-bottom: 8px;
-
+    margin-bottom: 4%;
     background-color: yellow;
-    width:39vw;
+    width: 203%;
+
 }
 .fourth>div:nth-child(2){
     flex:5;
-    /* margin:4px; */
-    /* margin-bottom: 8px; */
-
     background-color:yellow;
-  
 }
-.five>div:nth-child(1){
-    
-    /* margin:4px; */
-    height:59vh;
-
+.fifth>div:nth-child(1){
+    height:100%;
     background-color:yellow;
-  
 }
